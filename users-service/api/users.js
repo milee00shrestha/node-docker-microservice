@@ -4,7 +4,7 @@
 //  require('./users')
 'use strict';
 
-//  Only export - adds the API to the app with the given options.
+//  Only export - adds the API to the app with the given options. this is me
 module.exports = (app, options) => {
 
   app.get('/users', (req, res, next) => {
